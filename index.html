@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/navbar.css">
+    <title>Home</title>
+
+</head>
+
+<body>
+    <div>
+        <!-- desktop -->
+        <div class="d-none d-md-block">
+            <div class="desk-home">
+                <div class="desk-wrap">
+                    <div id="sceneDesktop">
+                        <img id="l7" class="desk-layer" data-depth="0.7" src="./assets/home/l7.svg" />
+                        <img id="l6" class="desk-layer" data-depth="0.5" src="./assets/home/l6.svg" />
+                        <img id="l5" class="desk-layer" data-depth="0.3" src="./assets/home/l5.svg" />
+                        <img id="l4" class="desk-layer" data-depth="0.2" src="./assets/home/l4.svg" />
+                        <img id="l3" class="desk-layer" data-depth="0.1" src="./assets/home/l3.svg" />
+                        <img id="l2" class="desk-layer" data-depth="-0.1" src="./assets/home/l2.svg" />
+                        <img id="l1" class="desk-layer" data-depth="-0.2" src="./assets/home/l1.svg" />
+                    </div>
+
+                    <div id="content" class="desk-content">
+                        <img class="mb-5" src="./assets/logo-bd.svg" style="height: 30vh;" />
+                        <p class="desk-title">“ทฤษฎีใหม่.....ยืดหยุ่นได้และต้องยืดหยุ่น</p>
+                        <p class="desk-title mb-3">เหมือนชีวิตของเราทุกคนต้องมียืดหยุ่น”</p>
+                        <p class="desk-sub-title">พระราชดำรัสเมื่อวันที่ 14 กรกฎาคม 2541</p>
+                    </div>
+
+                    <div onclick="menuToggle()" id="menuWrap" class="desk-menu-wrap desk-bounce">
+                        <button id="startBtn" class="desk-start-btn"
+                            onclick="event.stopPropagation(); menuToggle()">Start</button>
+
+                        <a onclick="event.stopPropagation();" href="./index.html" class="desk-menu">
+                            <img src="./assets/home/menu1.svg" />
+                            <p>หน้าแรก</p>
+                        </a>
+                        <a onclick="event.stopPropagation();" href="./page1.html" class="desk-menu">
+                            <img src="./assets/home/menu1.svg" />
+                            <p>รู้จักทฤษฎีใหม่</p>
+                        </a>
+                        <a onclick="event.stopPropagation();" href="./page2.html" class="desk-menu">
+                            <img src="./assets/home/menu2.svg" />
+                            <p>วิถีทฤษฎีใหม่</p>
+                        </a>
+                        <a onclick="event.stopPropagation();" href="./year5/4.html"
+                            class="desk-menu">
+                            <img src="./assets/home/menu3.svg" />
+                            <p>ทฤษฎีใหม่ขั้นต้น</p>
+                        </a>
+                        <a onclick="event.stopPropagation();" href="./year5/5.html"
+                            class="desk-menu">
+                            <img src="./assets/home/menu4.svg" />
+                            <p>ทฤษฎีใหม่ขั้นก้าวหน้า</p>
+                        </a>
+                        <a onclick="event.stopPropagation();" href="./year5/6.html" class="desk-menu">
+                            <img src="./assets/home/menu5.svg" />
+                            <p>ฝากให้รู้ไว้</p>
+                        </a>
+                        <a onclick="event.stopPropagation();" href="./year5/7.html"
+                            class="desk-menu">
+                            <img src="./assets/home/menu6.svg" />
+                            <p>หน่วยงานให้คำปรึกษา</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer">
+                <p class="text-center">เว็บไซต์นี้เป็นส่วนหนึ่งของวิชาออกแบบเว็บไซต์ หลักสูตรนิเทศศิลป์
+                    คณะสถาปัตยกรรมศาสตร์
+                    และการโปรแกรมและสื่อประสม แขนงวิชาการพัฒนาสื่อประสมและเกม คณะเทคโนโลยีสารสนเทศ
+                    สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง ©2019</p>
+            </div>
+
+        </div>
+        <!-- end desktop -->
+
+        <!-- mobile -->
+        <div class="d-md-none d-sm-block">
+            <div class="mob-home">
+
+                <div id="sceneMobile">
+                    <img id="m-bg" class="mob-layer" src="./assets/home/m-bg.svg" />
+                </div>
+                <div class="mob-filter"></div>
+
+                <div class="mob-content" id="mob-content">
+                    <img class="mb-3" src="./assets/logo-bd.svg" style="height: 25vh;" />
+                    <p class="mob-title">“ทฤษฎีใหม่.....ยืดหยุ่นได้และต้องยืดหยุ่น</p>
+                    <p class="mob-title mb-3">เหมือนชีวิตของเราทุกคนต้องมียืดหยุ่น”</p>
+                    <p class="mob-sub-title">พระราชดำรัสเมื่อวันที่ 14 กรกฎาคม 2541</p>
+                </div>
+
+                <div onclick="mob_menuToggle()" id="mob-menuWrap" class="mob-menu-wrap mob-bounce">
+                    <button id="mob-startBtn" class="mob-start-btn"
+                        onclick="event.stopPropagation(); mob_menuToggle()">Start</button>
+
+                    <a onclick="event.stopPropagation();" href="./index.html" class="mob-menu">
+                        <img src="./assets/home/menu1.svg" />
+                        <p>หน้าแรก</p>
+                    </a>
+                    <a onclick="event.stopPropagation();" href="./page1.html" class="mob-menu">
+                        <img src="./assets/home/menu1.svg" />
+                        <p>รู้จักทฤษฎีใหม่</p>
+                    </a>
+                    <a onclick="event.stopPropagation();" href="./page2.html" class="mob-menu">
+                        <img src="./assets/home/menu2.svg" />
+                        <p>วิถีทฤษฎีใหม่</p>
+                    </a>
+                    <a onclick="event.stopPropagation();" href="./year5/4.html"
+                        class="mob-menu">
+                        <img src="./assets/home/menu3.svg" />
+                        <p>ทฤษฎีใหม่ขั้นต้น</p>
+                    </a>
+                    <a onclick="event.stopPropagation();" href="./year5/5.html"
+                        class="mob-menu">
+                        <img src="./assets/home/menu4.svg" />
+                        <p>ทฤษฎีใหม่ขั้นก้าวหน้า</p>
+                    </a>
+                    <a onclick="event.stopPropagation();" href="./year5/6.html" class="mob-menu">
+                        <img src="./assets/home/menu5.svg" />
+                        <p>ฝากให้รู้ไว้</p>
+                    </a>
+                    <a onclick="event.stopPropagation();" href="./year5/7.html"
+                        class="mob-menu">
+                        <img src="./assets/home/menu6.svg" />
+                        <p>หน่วยงานให้คำปรึกษา</p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="mob-footer">
+                <p class="text-center">เว็บไซต์นี้เป็นส่วนหนึ่งของวิชาออกแบบเว็บไซต์ หลักสูตรนิเทศศิลป์
+                    คณะสถาปัตยกรรมศาสตร์
+                    และการโปรแกรมและสื่อประสม <br>แขนงวิชาการพัฒนาสื่อประสมและเกม คณะเทคโนโลยีสารสนเทศ
+                    สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง ©2019</p>
+            </div>
+        </div>
+        <!-- end mobile -->
+    </div>
+
+    <script src="./js/parallax.min.js"></script>
+    <script src="./js/navbar.js"></script>
+    <script>
+        let sceneDesktop = new Parallax(document.getElementById("sceneDesktop"), {
+            limitX: 0,
+            limitY: 15
+        })
+
+        function menuToggle() {
+            document.getElementById("menuWrap").classList.toggle("desk-show-menu");
+            document.getElementById("menuWrap").classList.toggle("desk-bounce");
+            document.getElementById("content").classList.toggle("desk-hide-content");
+            document.getElementById("startBtn").classList.toggle("desk-hide-content");
+        }
+
+        function mob_menuToggle() {
+            document.getElementById("mob-menuWrap").classList.toggle("mob-show-menu");
+            document.getElementById("mob-menuWrap").classList.toggle("mob-bounce");
+            document.getElementById("mob-content").classList.toggle("mob-hide-content");
+            document.getElementById("mob-startBtn").classList.toggle("mob-hide-content");
+        }
+    </script>
+</body>
+
+</html>

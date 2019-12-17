@@ -1,0 +1,323 @@
+@font-face{
+	font-family: Itim-Regular;
+	src: url(Font/Itim-Regular.ttf);
+}
+
+body{
+	overflow-x: hidden;
+}
+
+.bd{
+	margin-top: -10px;
+}
+
+.mobi{
+	display: none;
+}
+
+.im1{
+	object-fit: contain;
+	position: absolute;
+	margin-left: -10px;
+	margin-top: -10px;
+}
+
+#mobi{
+	display: none;
+}
+
+#Dtext{
+	width: 60%;
+	margin-top: 15%;
+	margin-left: 10%;
+}
+
+#Dtext2{
+	margin-top: 20%;
+	margin-left: 10%;
+}
+
+#Dtext3{
+	width: 45%;
+	margin-top: 70%;
+	margin-left: 30%;
+}
+
+#foot{
+	margin-top: 235%;
+	width: 100.5%;
+}
+
+#pad{
+	padding-right: 1.5em; 
+}
+
+.goto{
+	position: absolute;
+	width: 100%;
+	margin-top: 2%;
+	margin-right: 5%;
+	text-align: right;
+}
+
+a{
+	position: relative;
+	font-family: "Itim-Regular";
+	color: black;
+	text-decoration: none;
+	display: block;
+}
+
+li{
+	display: inline-block;
+}
+
+li a{
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+}
+
+
+
+@media screen and (max-width: 991px){
+	.desk{
+		display: none;
+	}
+
+	.mobi{
+		display: block;
+	}
+
+	#im2{
+		display: block;
+		position: absolute;
+		margin-left: -10px;
+	}
+
+	.im3{
+		display: block;
+		position: absolute;
+		margin-top: 120%;
+		margin-left: 15%;
+		width: 80%;
+	}
+
+	/* #mfoot {
+		display: block;
+	}
+	#foot {
+		display: none;
+	} */
+
+	#im3{
+		display: block;
+		position: absolute;
+		margin-top: -10%;
+		width: 100%;
+	}
+
+	.im4{
+		display: block;
+		position: absolute;
+		margin: -10px 0 0 -10px;
+	}
+
+	#im4{
+		display: block;
+		width: 50%;
+		position: absolute;
+		margin-top: -20%;
+		margin-left: -10%;
+	}
+
+	#im5{
+		display: block;
+		position: absolute;
+		width: 10%;
+		margin-left : 80%;
+		margin-top: 10%;
+	}
+
+	/* #text1{
+		position: relative;
+		display: block;
+		background-color: #f9d6c2;
+		font-size: 200%;
+		padding: 30px; */
+	/* } */
+
+	#list1{
+		display: inline-block;
+		width: 100%;
+		margin-left: -5%;
+		border-bottom-color: black;
+	}
+
+	#list2{
+		display: inline-block;
+		width: 100%;
+		margin-top: 32%;
+		margin-left: -5%;
+	}
+
+	#mfoot{
+		position: absolute;
+		margin-top: 905%;
+		margin-left: -1%;
+		width: 100.5%;
+	}
+
+	#close-image img {
+    	display: block; 
+    	width: 10%;
+	}
+
+	.dropdown {
+		position: relative;
+		display: inline-block;
+	}
+
+	.dropdown-content a {
+		position: relative;
+		color: black;
+		text-decoration: none;
+	}
+
+	.dropbtn {
+    	border: 0px;
+    	text-align: center;
+    	text-decoration: none;
+    	display: inline-block;
+    	font-size: 18px;
+    	color: white;
+    	background-color: white;
+    	border: none;
+    	cursor: pointer;
+    	background-color: rgba(161, 134, 115, 1);
+    }
+
+    #myDiv{
+    	display: none;
+    }
+
+    .dropdown-content a:hover {background-color: #f1f1f1}
+
+}
+
+
+/* overide */
+#foot {
+	/* color: #757a47; */
+	background-color: #b5be6d;
+	padding: 1em 0;
+	text-align: center;
+	margin: 0 !important;
+	position: relative;
+  }
+  
+  #foot div {
+	/* color: #757a47; */
+	background-color: #b5be6d;
+	/* padding: 1em 10em; */
+	width: 70%;
+	text-align: center;
+	/* margin: 0 !important; */
+	width: 70%;
+	margin: auto;
+	right: 0;
+	left: 0;
+  }
+  
+  #mfoot {
+	/* color: #757a47; */
+	background-color: #b5be6d;
+	padding: 1em 0;
+	text-align: center;
+	margin: 0 !important;
+	position: relative;
+  }
+  
+  #mfoot div {
+	/* color: #757a47; */
+	background-color: #b5be6d;
+	/* padding: 1em 10em; */
+	width: 70%;
+	text-align: center;
+	/* margin: 0 !important; */
+	width: 70%;
+	margin: auto;
+	right: 0;
+	left: 0;
+  }
+
+.im1 {
+	object-fit: unset !important;
+}
+
+#text1 {
+	top: 0;
+    margin-top: 13%;
+    width: 60%;
+    margin-left: 12%;
+}
+
+#text2 {
+	top: 0;
+    margin-top: 17%;
+    width: 60%;
+    margin-left: 12%;
+}
+
+#text3 {
+	color:white;
+	top: 0;
+    margin: auto;
+    margin-top: 72%;
+    width: 45%;
+    right: 0;
+    left: 0;
+}
+
+#mtext1 {
+	top: 0;
+    right: 0;
+    margin-top: 36%;
+    width: 95%;
+    text-align: center;
+}
+
+#mtext2 {
+	top: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    margin-top: 50%;
+    width: 84%;
+    text-align: center;
+}
+
+#mtext3 {
+	color: white;
+    top: 0;
+    margin: auto;
+    margin-top: 222%;
+    width: 84%;
+    right: 0;
+    left: 0;
+}
+
+.divider {
+	border-bottom: 2px white solid;
+    height: 1px;
+    margin: 20px 0;
+}
+
+.imag{
+	position: absolute;
+    top: 10vh;
+}
+
+.navbar {
+	position: absolute !important;
+}
